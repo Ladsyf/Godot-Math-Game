@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://movingobjects.gd" type="Script" id=2]
+
+[node name="instance" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_left = -31.0
+margin_top = -16.0
+margin_right = 1098.0
+margin_bottom = 1933.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
